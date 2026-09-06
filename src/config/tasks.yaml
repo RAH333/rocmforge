@@ -1,0 +1,9 @@
+port_codebase_task:
+  description: "Scan the incoming file structure or target legacy Python/C++ logic string. Identify CUDA bindings, kernel configurations, and library abstractions, transforming them precisely to native AMD HIP equivalents."
+  expected_output: "A well-structured Python or C++ string showing translated syntax and explicit notation where legacy API mappings require updated framework libraries."
+  agent: "code_porting_agent"
+
+profile_resources_task:
+  description: "Analyze the newly ported script footprint. Produce structural recommendations on GPU thread block layouts, hardware memory pooling adjustments, cache alignments, and asynchronous pipeline optimizations."
+  expected_output: "A structural system report highlighting localized optimizations, vRAM protection mechanics, and high-throughput scaling opportunities."
+  agent: "resource_monitoring_agent"
