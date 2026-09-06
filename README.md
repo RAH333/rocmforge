@@ -33,3 +33,11 @@ Execute the pipeline against any localized test script module containing target 
 ```bash
 python src/main.py path/to/legacy_gpu_code.py
 ```
+# Another Method of Local Installation Sequence
+```
+# 1. Give the script permission to run as an executable file
+chmod +x setup.sh
+
+# 2. Execute the automated setup script
+./setup.sh
+````
